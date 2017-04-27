@@ -1,0 +1,25 @@
+{
+  "name": "chrome-dev-tools-study",
+  "version": "1.0.0",
+  "description": "Chrome DevTools 学习",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadWaka/chrome-dev-tools-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BadWaka/chrome-dev-tools-study/issues"
+  },
+  "homepage": "https://github.com/BadWaka/chrome-dev-tools-study#readme"
+}
