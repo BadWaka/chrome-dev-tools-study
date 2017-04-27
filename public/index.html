@@ -5,6 +5,24 @@
     <title>Chrome DevTools Study</title>
 </head>
 <body>
+<script>
+    //    console.group('aaa');
+    //    console.warn('aaa.aaa');
+    //    console.groupEnd();
+    //
+    //    const isDebug = false;
+    //    console.assert(isDebug, '6666666');
 
+    console.profile('array initial');
+//    console.time('array initial');
+    var array = new Array(1000000);
+    for (var i = 0; i < array.length; i++) {
+        array[i] = new Object();
+    }
+//    console.timeEnd('array initial');
+    console.profileEnd('array initial');
+
+
+</script>
 </body>
 </html>
